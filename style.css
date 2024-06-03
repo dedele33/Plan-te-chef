@@ -1,0 +1,189 @@
+ body {
+    font-family: system-ui;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #26C4EC;
+    }
+
+    header {
+    background-color: #26C4EC;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+    nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.flex-item {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.flex-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flex-item a:hover {
+    text-decoration: underline;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #26C4EC;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+h1 {
+
+ font-family: "Oswald", sans-serif;
+  font-weight: <400>;
+  font-style: normal;
+}
+
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: #9F3442;
+
+}
+
+#blog {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#blog h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#blog article {
+    margin-bottom: 1rem;
+}
+
+#blog article h2 {
+    margin-bottom: 1rem;
+}
+#blog h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.titre {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#a-propos{
+    text-align: center
+}
+
+#services{
+    text-align: center;
+}
